@@ -1,0 +1,12 @@
+<?php
+
+namespace Humcommerce\StorePickup\Model\ResourceModel;
+
+use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
+
+class Region extends AbstractDb {
+    protected function _construct()
+    {
+        $this->_init('devhooks_helloworld', 'id');
+    }
+}

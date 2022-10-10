@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Humcommerce_StorePickup::humc_storepickup" title="Humc StorePickup" module="Humcommerce_StorePickup" sortOrder="10"
+             resource="Humcommerce_StorePickup::humc_storepickup"/>
+        <add id="Humcommerce_StorePickup::region" title="Manage Regions" module="Humcommerce_StorePickup" sortOrder="10"
+             action="humc_storepickup/region" resource="Humcommerce_StorePickup::region" parent="Humcommerce_StorePickup::humc_storepickup"/>
+    </menu>
+</config>
